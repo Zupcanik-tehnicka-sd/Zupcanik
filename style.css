@@ -4,16 +4,18 @@
     box-sizing: border-box;
 }
 
+
 body {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
-    background-color: powderblue; /* powderblue*/
-}
+    background-color: powderblue !important;
+}   
 
-/* Book */
+
+
 .book {
     position: relative;
     width: 350px; /* 350px */
@@ -300,4 +302,12 @@ img {
     font-size: large;
     font-weight: bold;
 }
+
+
+.dropdown-item {
+    padding: 12px 20px; /* Increases the clickable area */
+    font-size: 1.2rem;   /* Increases the text size */
+}
+
+
 
